@@ -13,6 +13,9 @@
 		76279A9A258A45C9002AC675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76279A98258A45C9002AC675 /* Main.storyboard */; };
 		76279A9C258A45CD002AC675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76279A9B258A45CD002AC675 /* Assets.xcassets */; };
 		76279A9F258A45CD002AC675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76279A9D258A45CD002AC675 /* LaunchScreen.storyboard */; };
+		76279AAC258A4632002AC675 /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76279AA9258A4632002AC675 /* Fireworks.jpg */; };
+		76279AAD258A4632002AC675 /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76279AAA258A4632002AC675 /* FastTyping.jpg */; };
+		76279AAE258A4632002AC675 /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 76279AAB258A4632002AC675 /* FastTyping.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		76279A9B258A45CD002AC675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76279A9E258A45CD002AC675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76279AA0258A45CD002AC675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76279AA9258A4632002AC675 /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
+		76279AAA258A4632002AC675 /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		76279AAB258A4632002AC675 /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		76279A91258A45C9002AC675 /* Storyboard_MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				76279AA8258A4601002AC675 /* Resources */,
 				76279A92258A45C9002AC675 /* AppDelegate.swift */,
 				76279A94258A45C9002AC675 /* SceneDelegate.swift */,
 				76279A96258A45C9002AC675 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				76279AA0258A45CD002AC675 /* Info.plist */,
 			);
 			path = Storyboard_MoviePlayer;
+			sourceTree = "<group>";
+		};
+		76279AA8258A4601002AC675 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76279AAA258A4632002AC675 /* FastTyping.jpg */,
+				76279AAB258A4632002AC675 /* FastTyping.mp4 */,
+				76279AA9258A4632002AC675 /* Fireworks.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76279AAC258A4632002AC675 /* Fireworks.jpg in Resources */,
 				76279A9F258A45CD002AC675 /* LaunchScreen.storyboard in Resources */,
+				76279AAE258A4632002AC675 /* FastTyping.mp4 in Resources */,
+				76279AAD258A4632002AC675 /* FastTyping.jpg in Resources */,
 				76279A9C258A45CD002AC675 /* Assets.xcassets in Resources */,
 				76279A9A258A45C9002AC675 /* Main.storyboard in Resources */,
 			);
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.opentidecn.subwayapp.Storyboard-MoviePlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.opentidecn.subwayapp.Storyboard-MoviePlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
